@@ -1,88 +1,88 @@
-## Step 2: Agent Mode and an MCP Server for GitHub
+## Step 2: Agent Mode e um MCP server para o GitHub
 
-Great work! You just connected your first MCP server to GitHub Copilot! 🎉
+Ótimo trabalho! Você acabou de conectar seu primeiro MCP server ao GitHub Copilot! 🎉
 
-🚨 The teachers have been busy opening new issues in your repository with bugs and feature requests! Go [take a look](https://github.com/{{full_repo_name}}/issues) - so many good ideas!
+🚨 Os professores andaram ocupados abrindo novas issues no seu repositório com bugs e pedidos de funcionalidades! [Dê uma olhada](https://github.com/{{full_repo_name}}/issues) — quantas boas ideias!
 
-We should probably look into them and start researching for other upgrades. Fortunately, with an MCP server for GitHub, triaging these and even doing some research to get ahead should be pretty quick! 🕵️
+É melhor analisarmos tudo isso e começarmos a pesquisar outras melhorias. Felizmente, com um MCP server para o GitHub, fazer a triagem e até pesquisar para sair na frente vai ser bem rápido! 🕵️
 
-### 📖 Theory: How MCP Tool Calling Works in Agent Mode
+### 📖 Teoria: como funciona a chamada de ferramentas do MCP no Agent Mode
 
-Now that we have the GitHub MCP connected, let's look at how **agent mode** actually uses these external tools.
+Agora que temos o GitHub MCP conectado, vamos ver como o **agent mode** realmente usa essas ferramentas externas.
 
-With every prompt you send, Copilot also includes the catalog (list + schema) of available tools. Copilot can then plan and decide:
+A cada prompt que você envia, o Copilot também inclui o catálogo (lista + schema) das ferramentas disponíveis. Com isso, o Copilot consegue planejar e decidir:
 
-- Is any tool needed for this request?
-- Which tool(s) best match the intent?
-- What arguments (per each tool's input schema) should be passed?
+- Alguma ferramenta é necessária para essa solicitação?
+- Qual ou quais ferramentas melhor atendem à intenção?
+- Quais argumentos (conforme o input schema de cada ferramenta) devem ser passados?
 
-Copilot then executes the chosen tool call(s) and streams results back to the LLM.
+Em seguida, o Copilot executa a(s) chamada(s) de ferramenta escolhida(s) e devolve os resultados ao LLM.
 
-![Flowchart diagram illustrating how a user interacts with Copilot Agent Mode](https://github.blog/wp-content/uploads/2025/05/how-it-works.png)
+![Diagrama de fluxo ilustrando como uma pessoa interage com o Copilot Agent Mode](https://github.blog/wp-content/uploads/2025/05/how-it-works.png)
 
 > [!TIP]
-> You can also explicitly nudge Copilot to call a specific tool by including `#<tool_name>` in your prompt (e.g `#create_pull_request`, `#codebase`).
+> Você também pode sugerir explicitamente que o Copilot chame uma ferramenta específica incluindo `#<tool_name>` no seu prompt (por exemplo, `#create_pull_request`, `#codebase`).
 
-From here, Copilot can use a set of GitHub‑aware tools to do more than just read or edit code in your repo. Here are a few things you can ask it to do:
+A partir daqui, o Copilot pode usar um conjunto de ferramentas integradas ao GitHub para fazer muito mais do que apenas ler ou editar código no seu repositório. Veja algumas coisas que você pode pedir:
 
-- Discover similar public projects to get inspiration.
-- Search issues considering description, comments, and likes.
-- Turn the new ideas you like into issues right away so you don’t lose them.
-- Retrieve an issue, make changes on a branch, and start a pull request.
+- Descobrir projetos públicos semelhantes para se inspirar.
+- Pesquisar issues considerando descrição, comentários e reações.
+- Transformar as novas ideias de que você gostou em issues imediatamente, para não perdê-las.
+- Buscar uma issue, fazer alterações em uma branch e abrir um pull request.
 
-Isn't that cool?! Now let's do it! 👩‍🚀
+Legal, né?! Agora vamos colocar em prática! 👩‍🚀
 
-### :keyboard: Activity: Quickly find and save ideas
+### :keyboard: Atividade: encontre e registre ideias rapidamente
 
-Let's put the GitHub MCP server to use by researching, comparing, and capturing enhancement ideas!
+Vamos colocar o GitHub MCP server para trabalhar pesquisando, comparando e registrando ideias de melhorias!
 
-1. Close any open files inside your codespace. This will help reduce unnecessary context.
+1. Feche todos os arquivos abertos no seu codespace. Isso ajuda a reduzir contexto desnecessário.
 
-1. Ensure the **Copilot Chat** panel is open and **Agent** mode is selected. Verify the MCP server tools are also still available.
+1. Garanta que o painel **Copilot Chat** esteja aberto e o modo **Agent** selecionado. Confirme também que as ferramentas do MCP server continuam disponíveis.
 
-1. Ask Copilot to search GitHub for projects similar to this one.
+1. Peça ao Copilot para pesquisar no GitHub projetos semelhantes a este.
 
    > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
    >
    > ```prompt
-   > Search for any other repositories for organizing extra curricular activities
+   > Pesquise outros repositórios para organizar atividades extracurriculares
    > ```
 
-1. When an MCP tool is required, Copilot may ask for permission. **Verify the request** and modify if necessary, then click **Continue**.
+1. Quando uma ferramenta MCP for necessária, o Copilot pode pedir permissão. **Revise a solicitação** e ajuste se preciso, depois clique em **Continue**.
 
    <img width="250" alt="request permission dialog" src="https://github.com/user-attachments/assets/229473af-c206-47a4-b356-943b9c9bd946" />
 
-1. Ask Copilot to describe one of the projects. Explore until you find something you like.
+1. Peça ao Copilot que descreva um dos projetos. Explore até encontrar algo de que você goste.
 
    > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
    >
    > ```prompt
-   > Please look at the code for the 3rd option and give me a detailed description of the features.
+   > Analise o código da 3ª opção e me dê uma descrição detalhada das funcionalidades.
    > ```
 
-1. Use Copilot to compare and generate ideas for enhancements.
+1. Use o Copilot para comparar e gerar ideias de melhorias.
 
    > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
    >
    > ```prompt
-   > Please compare these features to our project. Which would be new?
+   > Compare essas funcionalidades com as do nosso projeto. Quais seriam novidade?
    > ```
 
-1. Nice! Let's have Copilot create issues to save these ideas.
+1. Boa! Agora vamos pedir ao Copilot que crie issues para guardar essas ideias.
 
    > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
    >
    > ```prompt
-   > I like it. Let's create issues for these in my repository.
+   > Gostei. Vamos criar issues para essas ideias no meu repositório.
    > ```
 
-1. Copilot will ask for permission to create issues on your repository. Click **Continue** for each new issue. Reminder: **verify the request** before running.
+1. O Copilot vai pedir permissão para criar issues no seu repositório. Clique em **Continue** para cada nova issue. Lembrete: **revise a solicitação** antes de executar.
 
    <img width="250" alt="request permission dialog" src="https://github.com/user-attachments/assets/52635294-950a-4168-b71e-498eb769f3af" />
 
-1. Since we are done researching, let's finish this chat session to clear the context. At the top of the **Copilot Chat** panel, click the **New Chat** icon (plus sign).
+1. Como já terminamos a pesquisa, vamos encerrar esta sessão de chat para limpar o contexto. No topo do painel **Copilot Chat**, clique no ícone **New Chat** (sinal de mais).
 
-1. With the new issues created, Mona should already be busy checking your work. Give her a moment and keep watch in the comments. You will see her respond with progress info and the next lesson.
+1. Com as novas issues criadas, a Mona já deve estar conferindo seu trabalho. Dê um tempinho a ela e acompanhe os comentários. Você verá a resposta dela com informações de progresso e a próxima lição.
 
 > [!NOTE]
-> The Model Context Protocol (MCP) landscape is quickly evolving. Many servers, including the [Official GitHub MCP server](https://github.com/github/github-mcp-server) are in active development and do not have full parity with their stable APIs.
+> O cenário do Model Context Protocol (MCP) evolui rapidamente. Muitos servidores, incluindo o [GitHub MCP server oficial](https://github.com/github/github-mcp-server), estão em desenvolvimento ativo e ainda não têm paridade total com suas APIs estáveis.

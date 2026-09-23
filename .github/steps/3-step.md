@@ -1,65 +1,65 @@
-## Step 3: Solve issues with Agent Mode and GitHub MCP Server
+## Step 3: Resolver issues com o Agent Mode e o GitHub MCP Server
 
-Great work doing that research and finding a potential collaboration opportunity.
-Not only did we find some new ideas to help organize extracurricular activities, but we did all that quickly too.
+Ótimo trabalho na pesquisa e ao encontrar uma possível oportunidade de colaboração.
+Além de descobrir novas ideias para ajudar a organizar as atividades extracurriculares, fizemos tudo isso rapidamente.
 
-Now, let's use our MCP server's tools and Copilot to do a bit of triage and get some work done.
+Agora, vamos usar as ferramentas do nosso MCP server e o Copilot para fazer um pouco de triagem e colocar o trabalho em dia.
 
-### :keyboard: Activity: Easily implement an important issue
+### :keyboard: Atividade: implemente facilmente uma issue importante
 
-The issue backlog is piling up. Let’s finally tackle one, but which deserves our attention first?
+O backlog de issues está crescendo. Vamos finalmente resolver uma delas — mas qual merece nossa atenção primeiro?
 
-1. Ensure the **Copilot Chat** panel is open and **Agent** mode is selected. Verify the MCP server tools are also still available.
+1. Garanta que o painel **Copilot Chat** esteja aberto e o modo **Agent** selecionado. Confirme também que as ferramentas do MCP server continuam disponíveis.
 
-1. Ask Copilot about the open issues on this repository.
+1. Pergunte ao Copilot sobre as issues abertas neste repositório.
 
    > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
    >
    > ```prompt
-   > How many open issues are there on my repository?
+   > Quantas issues abertas existem no meu repositório?
    > ```
 
-   > 🪧 **Note:** Check that the List Issues tool is called with proper parameters.
+   > 🪧 **Observação:** confira se a ferramenta List Issues foi chamada com os parâmetros corretos.
 
-1. Ask Copilot to summarize the important issues.
+1. Peça ao Copilot que resuma as issues importantes.
 
    > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
    >
    > ```prompt
-   > Oh no. That's too many for me! Please get the list of issues,
-   > review the descriptions and comments, and pick the top 3 most important.
+   > Nossa, são issues demais para mim! Busque a lista de issues,
+   > revise as descrições e os comentários e escolha as 3 mais importantes.
    > ```
 
    <details>
-   <summary> <b> 💡 Tip:</b> Pre-authorize tool usage</summary><br/>
+   <summary> <b> 💡 Dica:</b> pré-autorizar o uso de ferramentas</summary><br/>
 
-   If Copilot uses a tool often, you can proactively grant permission for the rest of the conversation session.
+   Se o Copilot usa uma ferramenta com frequência, você pode conceder permissão de forma proativa para o restante da sessão de conversa.
 
    <img width="350" src="https://github.com/user-attachments/assets/d741191e-4d98-489d-92d2-f1069fd6c34e"/>
 
    </details>
 
-1. Review the suggested issues. If Copilot didn't give a specific recommendation, try providing some feedback to narrow the results.
+1. Revise as issues sugeridas. Se o Copilot não deu uma recomendação específica, tente dar algum feedback para refinar os resultados.
 
-1. With the list narrowed, ask Copilot to implement an issue. **Mona won't grade if the changes work, just that an attempt was made.**
+1. Com a lista reduzida, peça ao Copilot que implemente uma issue. **A Mona não vai avaliar se as alterações funcionam, apenas que houve uma tentativa.**
 
    > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
    >
    > ```prompt
-   > #codebase Let's do the first one. Follow these steps:
-   > 1. Checkout a new local branch for making our changes.
-   > 2. Make the changes then confirm with me that they look correct.
-   > 3. Push the changes and create a pull request.
+   > #codebase Vamos fazer a primeira. Siga estes passos:
+   > 1. Crie uma nova branch local para as nossas alterações.
+   > 2. Faça as alterações e confirme comigo se estão corretas.
+   > 3. Envie as alterações e crie um pull request.
    > ```
 
-   > ⚠️ **Warning:** Always verify the the actions Copilot is asking to perform, especially with the external abilities provided by an MCP server, which probably have no undo option.
+   > ⚠️ **Atenção:** sempre verifique as ações que o Copilot pede para executar, especialmente com as habilidades externas fornecidas por um MCP server, que provavelmente não têm opção de desfazer.
 
-1. Once the pull request is created, Mona will start checking your work. Give her a moment and keep watch of the comments. You will see her respond with progress info and the next step!
+1. Assim que o pull request for criado, a Mona começará a conferir seu trabalho. Dê um tempinho a ela e acompanhe os comentários. Você verá a resposta dela com informações de progresso e o próximo passo!
 
 <details>
-<summary>Having trouble?</summary><br/>
+<summary>Com dificuldades?</summary><br/>
 
-- If tools are not being requested, verify your MCP configuration is correct.
-- If Copilot cannot retrieve results, verify you are using this Codespace's token or a Personal Access Token (PAT) with appropriate permissions. By default, the codespace token we are using only has access to this repository.
+- Se as ferramentas não estiverem sendo solicitadas, verifique se sua configuração de MCP está correta.
+- Se o Copilot não conseguir obter resultados, confirme se você está usando o token deste Codespace ou um Personal Access Token (PAT) com as permissões adequadas. Por padrão, o token do codespace que estamos usando só tem acesso a este repositório.
 
 </details>

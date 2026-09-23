@@ -86,12 +86,12 @@ jobs:
           # Set step message based on results
           if ! $has_src_changed; then
             echo "No changes found in src directory"
-            echo "STEP_MESSAGE=Use Copilot to implement changes in the src directory" >> $GITHUB_OUTPUT
+            echo "STEP_MESSAGE=Use o Copilot para implementar alterações no diretório src" >> $GITHUB_OUTPUT
             exit 1
           fi
 
           echo "Changes found in src directory"
-          echo "STEP_MESSAGE=Great work! Changes detected in src directory" >> $GITHUB_OUTPUT
+          echo "STEP_MESSAGE=Ótimo trabalho! Alterações detectadas no diretório src" >> $GITHUB_OUTPUT
 
       - name: Update comment - step results
         uses: GrantBirki/comment@v2.1.1

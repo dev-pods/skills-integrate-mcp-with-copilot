@@ -1,48 +1,48 @@
-# Integrate MCP with GitHub Copilot
+# Integrar MCP com o GitHub Copilot
 
-_Learn how to give GitHub Copilot more tools to expand the capabilities of your development workflow. All in less than an hour!_
+_Aprenda a dar mais ferramentas ao GitHub Copilot para expandir as capacidades do seu fluxo de desenvolvimento. Tudo em menos de uma hora!_
 
-## Welcome
+## Boas-vindas
 
-- **Who is this for**: Developers looking to enhance their AI-assisted workflows, GitHub Copilot users, and AI enthusiasts.
-- **What you'll learn**: We'll introduce MCP basics, a GitHub MCP server setup, and integration with Copilot Agent Mode.
-- **What you'll build**: A mixed development workflow that uses GitHub Copilot to manage issues while upgrading the extracurricular activities website for Mergington High School.
-- **Prerequisites**: [Getting Started with Copilot](https://github.com/skills/getting-started-with-github-copilot) Exercise
-- **How long**: This exercise takes less than one hour to complete.
+- **Para quem é**: pessoas desenvolvedoras que querem aprimorar seus fluxos de trabalho assistidos por IA, usuários do GitHub Copilot e entusiastas de IA.
+- **O que você vai aprender**: vamos apresentar os conceitos básicos de MCP, a configuração de um GitHub MCP server e a integração com o Copilot Agent Mode.
+- **O que você vai construir**: um fluxo de desenvolvimento combinado que usa o GitHub Copilot para gerenciar issues enquanto evolui o site de atividades extracurriculares da Mergington High School.
+- **Pré-requisitos**: exercício [Getting Started with Copilot](https://github.com/skills/getting-started-with-github-copilot)
+- **Duração**: este exercício leva menos de uma hora para ser concluído.
 
-In this exercise, you will:
+Neste exercício, você vai:
 
-1. Integrate a GitHub MCP server with GitHub Copilot.
-2. Delegate Copilot to research similar projects and open issues.
-3. Ask Copilot to find an important issue and implement it from idea to pull request.
-4. Add comments to a recently closed issue.
+1. Integrar um GitHub MCP server ao GitHub Copilot.
+2. Delegar ao Copilot a pesquisa de projetos semelhantes e a abertura de issues.
+3. Pedir ao Copilot que encontre uma issue importante e a implemente, da ideia ao pull request.
+4. Adicionar comentários em uma issue recém-fechada.
 
-### How to start this exercise
+### Como iniciar este exercício
 
 > [!IMPORTANT]
-> This exercise assumes basic knowledge of [GitHub Copilot](https://github.com/features/copilot). If you are unfamiliar, we recommend the [Getting Started with Copilot](https://github.com/skills/getting-started-with-github-copilot) exercise.
+> Este exercício pressupõe conhecimento básico do [GitHub Copilot](https://github.com/features/copilot). Se você ainda não conhece, recomendamos o exercício [Getting Started with Copilot](https://github.com/skills/getting-started-with-github-copilot).
 
-Simply copy the exercise to your account, then give your favorite Octocat (Mona) **about 20 seconds** to prepare the first lesson, then **refresh the page**.
+Basta copiar o exercício para a sua conta, dar à sua Octocat favorita (a Mona) **cerca de 20 segundos** para preparar a primeira lição e, então, **atualizar a página**.
 
-[![](https://img.shields.io/badge/Copy%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=skills&template_name=integrate-mcp-with-copilot&owner=%40me&name=skills-integrate-mcp-with-copilot&description=Exercise:+Integrate+Model+Context+Protocol+with+GitHub+Copilot&visibility=public)
+[![](https://img.shields.io/badge/Copiar%20Exerc%C3%ADcio-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=dev-pods&template_name=skills-integrate-mcp-with-copilot&owner=%40me&name=skills-integrate-mcp-with-copilot&description=Exerc%C3%ADcio:+Integrar+o+Model+Context+Protocol+com+o+GitHub+Copilot&visibility=public)
 
 <details>
-<summary>Having trouble? 🤷</summary><br/>
+<summary>Com dificuldades? 🤷</summary><br/>
 
-When copying the exercise, we recommend the following settings:
+Ao copiar o exercício, recomendamos as seguintes configurações:
 
-- For owner, choose your personal account or an organization to host the repository.
+- Em owner, escolha sua conta pessoal ou uma organização para hospedar o repositório.
 
-- We recommend creating a public repository, since private repositories will use Actions minutes.
+- Recomendamos criar um repositório público, já que repositórios privados consomem minutos de Actions.
 
-If the exercise isn't ready in 20 seconds, please check the [Actions](../../actions) tab.
+Se o exercício não estiver pronto em 20 segundos, verifique a aba [Actions](../../actions).
 
-- Check to see if a job is running. Sometimes it simply takes a bit longer.
+- Veja se algum job está em execução. Às vezes simplesmente demora um pouco mais.
 
-- If the page shows a failed job, please submit an issue. Nice, you found a bug! 🐛
+- Se a página mostrar um job com falha, abra uma issue. Boa, você encontrou um bug! 🐛
 
 </details>
 
 ---
 
-&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+&copy; 2025 GitHub &bull; [Código de Conduta](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [Licença MIT](https://gh.io/mit)

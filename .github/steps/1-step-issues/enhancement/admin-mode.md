@@ -1,19 +1,19 @@
-# Admin Mode
+# Modo administrador
 
-## Problem
+## Problema
 
-Students are removing each other to free up space for themselves in the activities.
+Estudantes estão removendo uns aos outros para liberar vaga para si mesmos nas atividades.
 
-## Recommended Solution
+## Solução recomendada
 
-Add a user icon in the top right. When clicked it shows a login button. When the login button is clicked, it presents a window to enter a username and password.
+Adicionar um ícone de usuário no canto superior direito. Ao clicar nele, deve aparecer um botão de login. Ao clicar no botão de login, deve abrir uma janela para informar usuário e senha.
 
-- Only the teachers (logged in) have the ability to register and unregister students to activities.
+- Apenas os professores (autenticados) podem inscrever e remover estudantes das atividades.
 
-- The students (not logged in) can still view who is registered.
+- Os estudantes (sem login) continuam podendo ver quem está inscrito.
 
-- There is no need for an account maintenance page. Teachers will be assigned passwords.
+- Não é preciso ter uma página de manutenção de contas. Os professores receberão senhas já definidas.
 
-## Context
+## Contexto
 
-Since there is no database yet, please store the teacher usernames and passwords in a `json` file that is checked by the backend.
+Como ainda não existe banco de dados, armazene os usuários e senhas dos professores em um arquivo `json` verificado pelo backend.

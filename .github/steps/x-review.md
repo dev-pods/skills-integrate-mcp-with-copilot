@@ -1,20 +1,20 @@
-## Review
+## Revisão
 
-_Congratulations, you've completed this exercise and learned how to integrate MCP with GitHub Copilot!_
+_Parabéns, você concluiu este exercício e aprendeu a integrar o MCP com o GitHub Copilot!_
 
 <img src=https://octodex.github.com/images/collabocats.jpg alt=celebrate width=300 align=right>
 
-Here's a recap of what you learned:
+Aqui vai um resumo do que você aprendeu:
 
-- **MCP Server Configuration**: Setting up and connecting the GitHub MCP server to Copilot
-- **Agent Mode with MCP**: Using natural language to interact with external services through MCP tools
-- **GitHub Repository Research**: Searching for and analyzing similar projects using MCP capabilities
-- **Issue Management & Implementation**: Triaging, creating, and managing GitHub issues through Copilot, then having Copilot solve issues for you
+- **Configuração de MCP Server**: como configurar e conectar o GitHub MCP server ao Copilot
+- **Agent Mode com MCP**: usar linguagem natural para interagir com serviços externos por meio de ferramentas MCP
+- **Pesquisa de repositórios no GitHub**: buscar e analisar projetos semelhantes usando os recursos do MCP
+- **Gerenciamento e implementação de issues**: fazer triagem, criar e gerenciar issues do GitHub pelo Copilot e, em seguida, deixar o Copilot resolvê-las para você
 
-### What's next?
+### E agora?
 
-Check out these resources to learn more or get involved:
+Confira estes recursos para aprender mais ou participar:
 
-- [Take another GitHub Skills exercise](https://learn.github.com/skills).
-- Learn more about [Model Context Protocol](https://modelcontextprotocol.io/introduction)
-- Explore the [GitHub MCP Registry](https://github.com/mcp) and try out other servers!
+- [Faça outro exercício do GitHub Skills](https://learn.github.com/skills).
+- Saiba mais sobre o [Model Context Protocol](https://modelcontextprotocol.io/introduction)
+- Explore o [GitHub MCP Registry](https://github.com/mcp) e experimente outros servidores!

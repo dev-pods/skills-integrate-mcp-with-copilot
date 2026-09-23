@@ -20,8 +20,8 @@ jobs:
     name: Start Exercise
     uses: skills/exercise-toolkit/.github/workflows/start-exercise.yml@v0.7.3
     with:
-      exercise-title: "Integrate MCP with Copilot"
-      intro-message: "This exercise will help you learn how to expand GitHub Copilot's capabilities with Model Context Protocol (MCP)."
+      exercise-title: "Integrar MCP com o Copilot"
+      intro-message: "Este exercício vai te ajudar a aprender como expandir as capacidades do GitHub Copilot com o Model Context Protocol (MCP)."
 
   post_next_step_content:
     name: Post next step content

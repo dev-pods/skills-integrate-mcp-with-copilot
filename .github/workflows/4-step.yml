@@ -69,4 +69,4 @@ jobs:
     uses: skills/exercise-toolkit/.github/workflows/finish-exercise.yml@v0.7.1
     with:
       issue-url: ${{ needs.find_exercise.outputs.issue-url }}
-      exercise-title: "Integrate MCP with GitHub Copilot"
+      exercise-title: "Integrar MCP com o GitHub Copilot"

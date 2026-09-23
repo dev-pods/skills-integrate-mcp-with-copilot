@@ -1,3 +1,3 @@
-# Hard to change activities
+# Difícil alterar as atividades
 
-Teachers are afraid to modify the program since they think they might break it. Move the list of activities out of the python file into a dedicated `activities.json` file.
+Os professores têm receio de modificar o programa porque acham que podem quebrá-lo. Mova a lista de atividades do arquivo python para um arquivo dedicado `activities.json`.

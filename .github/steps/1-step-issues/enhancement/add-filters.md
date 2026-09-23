@@ -1,15 +1,15 @@
-# Add filters
+# Adicionar filtros
 
-There seems to be no order to the activities. Please fix this.
+As atividades parecem não ter nenhuma ordem. Por favor, corrijam isso.
 
-Here are my ideas, maybe in a toolbar above the activity cards.
+Seguem minhas ideias, talvez em uma barra de ferramentas acima dos cards de atividades.
 
-- Add some filters, for example by category. If needed, add a field to the JSON.
-- Add options to sort, for example by name or time. If needed, add a date field but leave the textual description version of the time.
-- Add a free text search.
+- Adicionar alguns filtros, por exemplo por categoria. Se precisar, inclua um campo no JSON.
+- Adicionar opções de ordenação, por exemplo por nome ou horário. Se precisar, inclua um campo de data, mas mantenha a versão textual do horário.
+- Adicionar uma busca por texto livre.
 
-Obviously, make sure it still looks good on desktop and phone.
+E claro, garantam que continue bonito no desktop e no celular.
 
 ----- COMMENTS -----
-This will be so useful. We should be proactive and do this before the list gets even longer.
-Let's do it! I would love to help out. I just took a coding class. 🤓
+Isso vai ser super útil. Devemos ser proativos e fazer isso antes que a lista fique ainda maior.
+Vamos nessa! Eu adoraria ajudar. Acabei de fazer um curso de programação. 🤓

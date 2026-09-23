@@ -1,22 +1,22 @@
-# 🚨 Missing Activity: GitHub Skills
+# 🚨 Atividade ausente: GitHub Skills
 
-The GitHub Skills activity announced by our principal is missing from the school activities signup page.
+A atividade GitHub Skills anunciada pela nossa diretora não aparece na página de inscrição das atividades da escola.
 
-Yesterday in the school assembly, the principal announced a new partnership with GitHub to teach students practical coding and collaboration skills. However, when I try to sign up for this activity, I can't find it on the website.
+Ontem, na assembleia da escola, a diretora anunciou uma nova parceria com o GitHub para ensinar aos estudantes habilidades práticas de programação e colaboração. Porém, quando tento me inscrever nessa atividade, não consigo encontrá-la no site.
 
-I can see several other activities, like these, so I think I have access.
+Consigo ver várias outras atividades, como estas, então acredito que tenho acesso.
 
 - ✅ Chess Club
 - ✅ Programming Class
 - ✅ Gym Class
 
-## ⏱️ Timeline
+## ⏱️ Prazo
 
-This is time-sensitive as the announcement mentioned registrations would close by the end of this week. Many students are eager to join. It's the first part of our [GitHub Certifications program](https://resources.github.com/learn/certifications/), which will help with college applications.
+Isso é urgente, porque o anúncio dizia que as inscrições se encerram até o fim desta semana. Muitos estudantes estão ansiosos para participar. É a primeira parte do nosso [programa de Certificações GitHub](https://resources.github.com/learn/certifications/), que vai ajudar nas inscrições para a faculdade.
 
-## 💡 Expected Outcome
+## 💡 Resultado esperado
 
-The GitHub Skills activity should be added to the system and available for registration like other activities
+A atividade GitHub Skills deve ser adicionada ao sistema e ficar disponível para inscrição, como as demais atividades
 
 Hewbie C.
-11th Grade Student
+Estudante do 3º ano do ensino médio
