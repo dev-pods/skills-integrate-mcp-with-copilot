@@ -2,7 +2,7 @@
 
 <img width="150" align="right" alt="copilot logo" src="https://github.com/user-attachments/assets/4d22496d-850b-4785-aafe-11cba03cd5f2" />
 
-No exercício [Getting Started with GitHub Copilot](https://github.com/skills/getting-started-with-github-copilot), conhecemos o site de atividades extracurriculares da Mergington High School, que permitia que estudantes se inscrevessem em eventos.
+No exercício [Getting Started with GitHub Copilot](https://github.com/dev-pods/getting-started-with-github-copilot), conhecemos o site de atividades extracurriculares da Mergington High School, que permitia que estudantes se inscrevessem em eventos.
 
 E agora temos um problema... mas... é um problema bom! Mais professores estão pedindo para usá-lo! 🎉
 

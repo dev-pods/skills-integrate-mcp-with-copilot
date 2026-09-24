@@ -7,7 +7,7 @@ _Aprenda a dar mais ferramentas ao GitHub Copilot para expandir as capacidades d
 - **Para quem é**: pessoas desenvolvedoras que querem aprimorar seus fluxos de trabalho assistidos por IA, usuários do GitHub Copilot e entusiastas de IA.
 - **O que você vai aprender**: vamos apresentar os conceitos básicos de MCP, a configuração de um GitHub MCP server e a integração com o Copilot Agent Mode.
 - **O que você vai construir**: um fluxo de desenvolvimento combinado que usa o GitHub Copilot para gerenciar issues enquanto evolui o site de atividades extracurriculares da Mergington High School.
-- **Pré-requisitos**: exercício [Getting Started with Copilot](https://github.com/skills/getting-started-with-github-copilot)
+- **Pré-requisitos**: exercício [Getting Started with Copilot](https://github.com/dev-pods/getting-started-with-github-copilot)
 - **Duração**: este exercício leva menos de uma hora para ser concluído.
 
 Neste exercício, você vai:
